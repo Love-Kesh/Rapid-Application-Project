@@ -38,7 +38,7 @@
             // 
             // btnAddPet
             // 
-            btnAddPet.Location = new Point(52, 122);
+            btnAddPet.Location = new Point(40, 51);
             btnAddPet.Name = "btnAddPet";
             btnAddPet.Size = new Size(216, 113);
             btnAddPet.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // btnCareSchedule
             // 
-            btnCareSchedule.Location = new Point(321, 122);
+            btnCareSchedule.Location = new Point(309, 51);
             btnCareSchedule.Name = "btnCareSchedule";
             btnCareSchedule.Size = new Size(216, 113);
             btnCareSchedule.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btnTaskList
             // 
-            btnTaskList.Location = new Point(321, 263);
+            btnTaskList.Location = new Point(309, 197);
             btnTaskList.Name = "btnTaskList";
             btnTaskList.Size = new Size(216, 113);
             btnTaskList.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             // btnHealthMetrics
             // 
-            btnHealthMetrics.Location = new Point(52, 263);
+            btnHealthMetrics.Location = new Point(40, 197);
             btnHealthMetrics.Name = "btnHealthMetrics";
             btnHealthMetrics.Size = new Size(216, 113);
             btnHealthMetrics.TabIndex = 3;
@@ -78,9 +78,9 @@
             // 
             // btnViewPets
             // 
-            btnViewPets.Location = new Point(104, 42);
+            btnViewPets.Location = new Point(40, 350);
             btnViewPets.Name = "btnViewPets";
-            btnViewPets.Size = new Size(117, 54);
+            btnViewPets.Size = new Size(216, 113);
             btnViewPets.TabIndex = 4;
             btnViewPets.Text = "View Pets";
             btnViewPets.UseVisualStyleBackColor = true;
@@ -88,9 +88,9 @@
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(364, 42);
+            btnLogout.Location = new Point(309, 350);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(117, 54);
+            btnLogout.Size = new Size(216, 113);
             btnLogout.TabIndex = 5;
             btnLogout.Text = "Log Out";
             btnLogout.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(681, 450);
+            ClientSize = new Size(583, 505);
             Controls.Add(btnLogout);
             Controls.Add(btnViewPets);
             Controls.Add(btnHealthMetrics);
