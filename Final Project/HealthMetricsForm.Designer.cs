@@ -42,20 +42,21 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            btnCompare = new Button();
             SuspendLayout();
             // 
             // txtWeight
             // 
-            txtWeight.Location = new Point(146, 133);
+            txtWeight.Location = new Point(146, 188);
             txtWeight.Name = "txtWeight";
             txtWeight.Size = new Size(121, 23);
             txtWeight.TabIndex = 1;
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(54, 243);
+            btnSave.Location = new Point(62, 285);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(121, 43);
+            btnSave.Size = new Size(109, 43);
             btnSave.TabIndex = 2;
             btnSave.Text = "Save Metrics";
             btnSave.UseVisualStyleBackColor = true;
@@ -63,7 +64,7 @@
             // 
             // btnBack
             // 
-            btnBack.Location = new Point(211, 243);
+            btnBack.Location = new Point(133, 362);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(108, 43);
             btnBack.TabIndex = 3;
@@ -74,7 +75,7 @@
             // cmbPetNames
             // 
             cmbPetNames.FormattingEnabled = true;
-            cmbPetNames.Location = new Point(146, 27);
+            cmbPetNames.Location = new Point(146, 82);
             cmbPetNames.Name = "cmbPetNames";
             cmbPetNames.Size = new Size(121, 23);
             cmbPetNames.TabIndex = 4;
@@ -82,14 +83,14 @@
             // 
             // txtAge
             // 
-            txtAge.Location = new Point(146, 80);
+            txtAge.Location = new Point(146, 135);
             txtAge.Name = "txtAge";
             txtAge.Size = new Size(121, 23);
             txtAge.TabIndex = 5;
             // 
             // txtHeight
             // 
-            txtHeight.Location = new Point(146, 181);
+            txtHeight.Location = new Point(146, 236);
             txtHeight.Name = "txtHeight";
             txtHeight.Size = new Size(121, 23);
             txtHeight.TabIndex = 6;
@@ -97,7 +98,7 @@
             // lblWeight
             // 
             lblWeight.AutoSize = true;
-            lblWeight.Location = new Point(54, 136);
+            lblWeight.Location = new Point(54, 191);
             lblWeight.Name = "lblWeight";
             lblWeight.Size = new Size(45, 15);
             lblWeight.TabIndex = 8;
@@ -106,7 +107,7 @@
             // lblHeight
             // 
             lblHeight.AutoSize = true;
-            lblHeight.Location = new Point(54, 184);
+            lblHeight.Location = new Point(54, 239);
             lblHeight.Name = "lblHeight";
             lblHeight.Size = new Size(43, 15);
             lblHeight.TabIndex = 9;
@@ -115,7 +116,7 @@
             // lblAge
             // 
             lblAge.AutoSize = true;
-            lblAge.Location = new Point(54, 83);
+            lblAge.Location = new Point(54, 138);
             lblAge.Name = "lblAge";
             lblAge.Size = new Size(28, 15);
             lblAge.TabIndex = 10;
@@ -124,7 +125,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(54, 317);
+            label1.Location = new Point(71, 30);
             label1.Name = "label1";
             label1.Size = new Size(202, 15);
             label1.TabIndex = 11;
@@ -133,7 +134,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(284, 83);
+            label2.Location = new Point(284, 138);
             label2.Name = "label2";
             label2.Size = new Size(34, 15);
             label2.TabIndex = 12;
@@ -142,7 +143,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(284, 136);
+            label3.Location = new Point(284, 191);
             label3.Name = "label3";
             label3.Size = new Size(25, 15);
             label3.TabIndex = 13;
@@ -151,7 +152,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(284, 184);
+            label4.Location = new Point(284, 239);
             label4.Name = "label4";
             label4.Size = new Size(41, 15);
             label4.TabIndex = 14;
@@ -160,17 +161,28 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(54, 30);
+            label5.Location = new Point(54, 85);
             label5.Name = "label5";
             label5.Size = new Size(59, 15);
             label5.TabIndex = 15;
             label5.Text = "Pet Name";
             // 
+            // btnCompare
+            // 
+            btnCompare.Location = new Point(202, 285);
+            btnCompare.Name = "btnCompare";
+            btnCompare.Size = new Size(107, 43);
+            btnCompare.TabIndex = 16;
+            btnCompare.Text = "Compare";
+            btnCompare.UseVisualStyleBackColor = true;
+            btnCompare.Click += btnCompare_Click;
+            // 
             // HealthMetricsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(379, 364);
+            ClientSize = new Size(374, 428);
+            Controls.Add(btnCompare);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -207,5 +219,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Button btnCompare;
     }
 }
